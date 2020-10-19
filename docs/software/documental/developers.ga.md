@@ -98,7 +98,7 @@ Léirítear na coincheapa seo in ainmniú na gcomhad svelte sa chomadlann `src/r
   - innéacs
 ```
 
-Ina theannta sin, mar a fheiceann tú sa doiciméadacht le haghaidh [eagarthóirí] (../eagarthóirí), bíonn na comhaid doiciméadachta Marcála Síos bunaithe ar na coincheapa seo den chuid is mó. 
+Ina theannta sin, mar a fheiceann tú sa doiciméadacht le haghaidh [eagarthóirí] (../eagarthóirí), bíonn na comhaid doiciméadachta Markdown bunaithe ar na coincheapa seo den chuid is mó. 
 
 ## Logánú
 
@@ -135,7 +135,7 @@ Níl aon srian leis an oiread neaduithe is féidir a dhéanamh ar oibiachtaí sa
 
 Glaoimid ar theaghrán logánaithe san UI ag úsáid poncnodaireacht ar nós `$_('navigation.openData')`, nuair a thugann `navigation.openData` `Open Data` do logchaighdeán Béarla nó `Sonraí Oscailte` do logchaighdeán Gaeilge, etc.
 
-Do bhlocanna níos mó téacs is féidir linn ábhar logánaithe a chur i gcomhaid Marcála síos ar leith, mar a dhéantar i gcás phríomhábhar doiciméadachta an tsuímh idirlín a stóráiltear sa bhfilltéan barrleibhéil `docs` . 
+Do bhlocanna níos mó téacs is féidir linn ábhar logánaithe a chur i gcomhaid Markdown ar leith, mar a dhéantar i gcás phríomhábhar doiciméadachta an tsuímh idirlín a stóráiltear sa bhfilltéan barrleibhéil `docs` . 
 
 ## Ag cuir acmhainn nua leis
 
