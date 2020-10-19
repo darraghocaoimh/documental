@@ -8,7 +8,7 @@ ord: 3
 poiblí: fíor
 
 ---
-Is feidhmchlár [Node.js](https://nodejs.org/) é Documental scríofa i Javascript. Is féidir leis rith ar fhreastalaí, ag soláthar inneachair go dinimiciúil, nó, is féidir é a úsáid mar [ghineadóir suímh stataigh](https://www.staticgen.com/about). Mínítear é seo tuilleadh sa chuid a bhaineann le[himlonnú] (../imlonnú). Stóráiltear inneachair suímh idirlín ar dhiosca i bhformáid chomhad Markdown agus níl aon bhunachair sonraí nó aon saghas sonraíocht eile stóráilte. 
+Is feidhmchlár [Node.js](https://nodejs.org/) é Documental scríofa i Javascript. Is féidir leis rith ar fhreastalaí, ag soláthar inneachair go dinimiciúil, nó, is féidir é a úsáid mar [ghineadóir suímh stataigh](https://www.staticgen.com/about). Mínítear é seo tuilleadh sa chuid a bhaineann le [himlonnú](../imlonnú). Stóráiltear inneachair suímh idirlín ar dhiosca i bhformáid chomhad Markdown agus níl aon bhunachair sonraí nó aon saghas sonraíochta eile stóráilte. 
 
 Oibríonnn an bogearra ar gach córas oibriúcháin coitianta: an t-aon réamhriachtanas ná Node.js a shuiteáil ar do ríomhaire. Aimseoidh agus suiteáilfidh Node.js Package Manager (NPM) gach spléachais eile as féin i rith na cumraíochta. Tógtar Documental trí úsáid a bhaint as [Svelte](https://svelte.dev/), creatlach comhpháirteanna cosúil le React, agus [Sapper](https://sapper.svelte.dev/), creatlach feidhmchláir á chumhachtú ag Svelte. Féach an doiciméadacht le haghaidh na gcreatlacha seo má bhíonn aon cheisteanna agat ó thaobh an fheidhmchláir de, mar tá eolas den saghas sin lasmuigh de scóip an ailt seo. 
 
@@ -60,10 +60,10 @@ Bíonn cur chuige comhpháirt-bhunaithe ag creatlacha nua-aimseartha Javascript 
 Tá Documental bunaithe ar roinnt eochairchoincheapa.
 
 1. **Logchaighdeáin**: léiríonn é seo sainroghanna logánaithe/idirnáisiúnaithe an úsáideora, m.sh. Gaeilge nó Béarla.
-2. ** Catagóir Doiciméadachta**: Tá dhá chatagóir in Documental; Sonraí Oscailte agus Bogearraí. Is féidir tuilleadh a chur leis, áfach. 
+2. **Catagóir Doiciméadachta**: Tá dhá chatagóir in Documental; Sonraí Oscailte agus Bogearraí. Is féidir tuilleadh a chur leis, áfach. 
 3. **Acmhainní**: Is éard is acmhainní ann ná bailiúchán scoite de dhoiciméad amháin nó níos mó a bhaineann le píosa bogearraí, le seirbhís nó  le déantán sonraí. 
 4. **Leaganacha achmhainne**: Is féidir leaganú a dhéanamh ar dohiciméadacht le haghaidh acmhainní faoi leith. Is iondúil go ndéantar é seo tré thagairt a dhéanamh d'uimhir leagain na acmhainne. 
-5.** Doimiméid: Leathanach singil doiciméadachta a bhaineann go sonrach le catagóir, logchaighdéan, achmhainn agus, más mian leat, leagan acmhainne.
+5.**Doimiméid**: Leathanach singil doiciméadachta a bhaineann go sonrach le catagóir, logchaighdéan, achmhainn agus, más mian leat, leagan acmhainne.
 
 Léirítear na coincheapa seo sna URLeanna a úsáideann an suíomh idirlín docs.gaois.ie: 
 
