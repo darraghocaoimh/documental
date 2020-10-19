@@ -10,7 +10,7 @@ poiblí: fíor
 ---
 Is feidhmchlár [Node.js](https://nodejs.org/) é Documental scríofa i Javascript. Is féidir leis rith ar fhreastalaí, ag soláthar inneachair go dinimiciúil, nó, is féidir é a úsáid mar [ghineadóir suímh stataigh] (https://www.staticgen.com/about). Mínítear é seo tuilleadh sa chuid a bhaineann le[himlonnú] (../imlonnú). Stóráiltear inneachair suímh idirlín ar dhiosca i bhformáid chomhad Markdown agus níl aon bhunachair sonraí nó aon saghas sonraíocht eile stóráilte. 
 
-Oibríonnn an bogearra ar gach córas oibriúcháin coitianta: an t-aon réamhriachtanas ná Node.js a shuiteáil ar do ríomhaire. Aimseoidh agus suiteáilfidh Node.js Package Manager (NPM) gach spléachais eile as féin i rith na cumraíochta. Tógtar Documental trí úsáid a bhaint as [Svelte](https://svelte.dev/), creatlach comhpháirteanna cosúil le React, agus [Sapper](https://sapper.svelte.dev/),creatlach feidhmchláir á chumhachtú ag Svelte. Féach an doiciméadacht le haghaidh na gcreatlacha seo má bhíonn aon cheisteanna agat ó thaobh an fheidhmchláir de, mar tá eolas den saghas sin lasmuigh de scóip an ailt seo. 
+Oibríonnn an bogearra ar gach córas oibriúcháin coitianta: an t-aon réamhriachtanas ná Node.js a shuiteáil ar do ríomhaire. Aimseoidh agus suiteáilfidh Node.js Package Manager (NPM) gach spléachais eile as féin i rith na cumraíochta. Tógtar Documental trí úsáid a bhaint as [Svelte](https://svelte.dev/), creatlach comhpháirteanna cosúil le React, agus [Sapper](https://sapper.svelte.dev/), creatlach feidhmchláir á chumhachtú ag Svelte. Féach an doiciméadacht le haghaidh na gcreatlacha seo má bhíonn aon cheisteanna agat ó thaobh an fheidhmchláir de, mar tá eolas den saghas sin lasmuigh de scóip an ailt seo. 
 
 ## ag tosnú
 
