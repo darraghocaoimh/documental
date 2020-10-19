@@ -10,7 +10,7 @@ poiblí: fíor
 
 Gheobhfar ar an leathanach seo treoracha d'eagarthóirí inneachair atá ag scríobh nó ag aistriú doiciméad lena n-úsáid in Documnetal. Cé go bhfuil scríobh na doiciméadachta teicniúla ábhar difriúil ó úsáid a bhaint as gnáth-phróiseálaí focal, ní haon rud é go mbeadh saineolas teicniúil ag teastáil lena aghaidh.
 
-##Riachtanais
+## Riachtanais
 
 Aon doiciméadacht in Documental caithfear í a scríobh in Markdown. Is éard atá in Markdown ná gnáth-théacs agus roinnt siombal eile lena chois chun rudaí ar nós ceannteideal, téacs i gcló trom, nascanna, srl., a léiriú. Úsáideann Documental leagan ar leith de Markdown ar a dtugtar Markdown le blas github, nó "github-flavoured Markdown" (GFM). Is fusa cód ríomhaireachta a mheascadh le gnáth-phrós leis an leagan seo. Mar sin féin níl tuiscint ar aon teanga ríomhchláraithe riachtanach chun Markdown a scríobh! Tá treoir gharbh ar conas scríobh in GFM le fáil [anseo](https://guides.github.com/features/mastering-markdown/) , nó is féidir teacht at threoir níos mionsonraithe [anseo] (https://www.markdownguide.org/). Is éard atá i gcomhaid Markdown ná comhaid téacs mar aon le hiarmhír, **.md** de ghnáth. Is féidir comhaid Markdown a chur in eagar ar ardán ar líne ar nós Github nó ar fheidhmchlár ar do ríomhaire. 
 
