@@ -73,7 +73,7 @@ I dtimpeallachtaí Windows Server is féidir freastal a dhéanamh ar fheidhmchl�
   </configuration>
   ```
 
-  Tá na feidhmeanna seo ag na rannáin thuas: (i) lodáileann siad an láimhsealaí iisnode agus (ii) atreoraíonn siad gach iarratas go dtí an comhad app.js nuair a aistrítear iad go dtí cód fheidhmchláir Documental. 
+  Tá na feidhmeanna seo ag na rannáin thuas: (i) lódáileann siad an láimhsealaí iisnode agus (ii) atreoraíonn siad gach iarratas go dtí an comhad app.js nuair a aistrítear iad go dtí cód fheidhmchláir Documental. 
 
 
 
@@ -86,7 +86,7 @@ Rith an t-ordú seo a leanas chun suíomh statach a aschuir ó Documental:
 ```cmd
 npm run export
 ```
-Aschuirfear na comhaid statacha go dtí an chomhadlann `__sapper__/export`. Aon orduithe aschurtha dá éis sin déanfaidh siad forscríobh ar inneachar na caomhadlainne go huathoibríoch. 
+Aschuirfear na comhaid statacha go dtí an chomhadlann `__sapper__/export`. Aon orduithe aschurtha dá éis sin déanfaidh siad forscríobh ar inneachar na comhadlainne go huathoibríoch. 
 
 Rith `npx serve __sapper__/export` chun do shuíomh statach a thástáil.
 
