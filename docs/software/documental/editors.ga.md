@@ -8,7 +8,7 @@ ord: 2
 poiblí: fíor
 ---
 
-Gheobhfar ar an leathanach seo treoracha d'eagarthóirí inneachair atá ag scríobh nó ag aistriú doiciméad lena n-úsáid in Documnetal. Cé go bhfuil scríobh na doiciméadachta teicniúla ábhar difriúil ó úsáid a bhaint as gnáth-phróiseálaí focal, ní haon rud é go mbeadh saineolas teicniúil ag teastáil lena aghaidh.
+Gheobhfar ar an leathanach seo treoracha d'eagarthóirí inneachair atá ag scríobh nó ag aistriú doiciméad lena n-úsáid in Documental. Cé go bhfuil scríobh na doiciméadachta teicniúla ábhar difriúil ó úsáid a bhaint as gnáth-phróiseálaí focal, ní haon rud é go mbeadh saineolas teicniúil ag teastáil lena aghaidh.
 
 ## Riachtanais
 
