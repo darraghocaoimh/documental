@@ -45,7 +45,7 @@ Nuair a bhíonn an feidhmchlár á rith i mód forbróra bíonn beo-athlódáil 
 Caithimis súil ar struchtúr an fhillteáin lasitigh do do stór Documental. Sna fillteáin bharrleibhéil seo a leanas is dóichí a dhéanfaidh tú athruithe: 
 
 - **`docs`**: Beidh an doiciméadacht Markdown a fhoilseofar ar do shuíomh idirlín istigh anseo .
-- **`teachtaireachtaí`**: Na teaghráin aistrithe a thaispeánfar sa chomhéadan úsáideora (UI) tá siad istigh anseo. Féach [Logánú] (#logánú) thíos. 
+- **`teachtaireachtaí`**: Na teaghráin aistrithe a thaispeánfar sa chomhéadan úsáideora (UI) tá siad istigh anseo. Féach [Logánú](#logánú) thíos. 
 - **`src`**: Cód foinseach an fheidhmchláir , loighic ródaithe agus gnólachta san áireamh. 
 - **`static`**: comhaid statacha a sholáthróidh d'fheidhmchlár, ar nós íomhánna, deilbhíní suímh, nó comhaid seachtracha CSS. 
 
@@ -88,14 +88,14 @@ Muna bhfuil ach aon doiciméid amháin a bhaineann leis an acmhainn, níl an slu
 Léirítear na coincheapa seo in ainmniú na gcomhad svelte sa chomadlann `src/routes` chomh maith. Féach an doiciméadacht a bhaineann le Sapper chun eolas i dtaobh ródaithe a fháil.
 
 ```
-- róid
-  - [logchaighdeán]
-    - [catagóir]
-      - innéacs
-      - [leagan]
+- routes
+  - [locale]
+    - [category]
+      - index
+      - [version]
         - [slug]
       - [slug]
-  - innéacs
+  - index
 ```
 
 Ina theannta sin, mar a fheiceann tú sa doiciméadacht le haghaidh [eagarthóirí] (../eagarthóirí), bíonn na comhaid doiciméadachta Markdown bunaithe ar na coincheapa seo den chuid is mó. 
@@ -107,25 +107,24 @@ Deileálann Documental le logánú UI tríd an leabharlann [svelte-i18n](https:/
 Stóráiltear na haistriúcháin ar chomhaid JSON sa bhfilltéan barrleibhéil "teachtaireachtaí". Ainmnítear na comhaid seo sa bhformáid `[logchaighdeán].json`. De réir na réamhshocraithe, is mar seo a leanas a bhíonn struchtúr an fhillteáin `teachtaireachtaí`: 
 
 ```
-- teachtaireachtaí
+- messages
   - en.json
   - ga.json
-  ```
+```
 
 Is féidir aistriucháin a neadú sna comhaid JSON seo de réir aon struchtúr a mheasann tú a bheith oiriúnach, m.sh. 
 
-
 ```json
 {
-  "nascleanúint": {
+  "navigation": {
     "api": "API",
-    "loga athruithe": "Loga athruithe",
-    "Foclóirsonraí": "Foclóir Sonraí",
-    "agtosnú": "Ag Tosnú",
-    "ceadúnas": "Ceadúnas",
-    "SonraíOscailte": "Sonraí Oscailte",
-    "bogearraí": "Bogearraí",
-    "sloinnte ": "Innéacs sloinnte"
+    "changelog": "Changelog",
+    "dataDictionary": "Data dictionary",
+    "gettingStarted": "Getting started",
+    "licence": "Licence",
+    "openData": "Open Data",
+    "software": "Software",
+    "surnames": "Surnames Index"
   },
   ...
 }
@@ -152,27 +151,27 @@ Tá an [chomhpháirt] (#cur-chuige-comhpháirt-bunaithe) **Nascleanúint.svelte*
 Mar shampla, chun acmhainn nua bogearraí a chur leis, déanaimid an chuid chuí den chomhad **Navigation.svelte** a chur in eagar:
 
 ```svelte
-<h2>{$_('bogearra.nascleanúint')}</h2>
+<h2>{$_('navigation.software')}</h2>
 <ul>
   <li>
-    <AcmhainnNascleanúint catagóir='bogearraí' acmhainn='terminologue' teideal='Terminologue' innéacs='intro'/>
+    <NavigationResource category='software' resource='terminologue' heading='Terminologue' index='intro'/>
   </li>
   <li>
-    <AcmhainnNascleanúint catagóir='bogearraí' acmhainn='geonames2sql' teideal='GeoNames2Sql' singleton/>
+    <NavigationResource category='software' resource='geonames2sql' heading='GeoNames2Sql' singleton/>
   </li>
   ...
 </ul>
 ```
 
-Cuir mír liosta nua leis, `<li>`, agus mac-chomhpháirt `<AcmhainnNascleanúint/>`:
+Cuir mír liosta nua leis, `<li>`, agus mac-chomhpháirt `<NavigationResource/>`:
 
 ```svelte
 <li>
-  <AcmhainnNascleanúint
-    catagóir='bogearraí'
-    acmhainn='terminologue'
-    teideal='Terminologue'
-    innéacs='intro'/>
+  <NavigationResource
+    category='software'
+    resource='terminologue'
+    heading='Terminologue'
+    index='intro'/>
 </li>
 ```
 
@@ -198,10 +197,10 @@ Cosúil leis an nascleanúint, is gá dúinn comhpháirt a léiríonn an acmhain
 ```svelte
 <ul>
   <li>
-    <AcmhainnBaile 
-      href={`/${$logchaighdeán}/bogearraí/terminologue/intro`}
-      ceannteideal='Terminologue'
-      blurba={$_('baile.cuid.terminologueBlurba')}/>
+    <HomeResource 
+      href={`/${$locale}/software/terminologue/intro`}
+      heading='Terminologue'
+      blurb={$_('home.sections.terminologueBlurb')}/>
   </li>
   ...
 </ul>
